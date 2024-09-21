@@ -117,13 +117,13 @@ export const AdminColumns: Array<GridColDef> = [
     minWidth: 80,
   },
   {
-    field: "fname",
+    field: "firstName",
     headerName: "Ism",
     flex: 1,
     minWidth: 100,
   },
   {
-    field: "lname",
+    field: "lastName",
     headerName: "Familiya",
     flex: 1,
     minWidth: 100,
@@ -150,11 +150,11 @@ export const AdminColumns: Array<GridColDef> = [
     renderCell: ({ row }) => <Chip label={row?.status} color="success" />,
   },
   {
-    field: "created_at",
+    field: "createdAt",
     headerName: "Yaratilgan",
     flex: 1,
     minWidth: 100,
-    renderCell: ({ row }) => <>{formatDate(row?.created_at)}</>,
+    renderCell: ({ row }) => <>{formatDate(row?.createdAt)}</>,
   },
   {
     field: "updated_at",
@@ -170,7 +170,7 @@ export const AdminColumns: Array<GridColDef> = [
     align: "center",
     headerAlign: "center",
     renderCell: () => (
-      <IconButton color="info">
+      <IconButton color="info" >
         <BsEye />
       </IconButton>
     ),
