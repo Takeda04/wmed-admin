@@ -1,0 +1,230 @@
+{
+  "login": {
+    "username": {
+      "title": "Username or Email",
+      "placeholder": "Enter your Username or Email"
+    },
+    "password": {
+      "title": "Password",
+      "placeholder": "Enter your password"
+    },
+    "hello": "Hello, Welcome",
+    "title": "Access Control Panel",
+    "dec": "Are you a new user?",
+    "register": "Create account",
+    "submit": "Confirm",
+    "forgot": "Forgot password?"
+  },
+  "errors": {
+    "404": "404: The page you are looking for does not exist here",
+    "500": "500: Internal Server Error",
+    "dec": "You either tried an obscure path or came here in the wrong place. Either way, try using navigation.",
+    "back": "Back to main page"
+  },
+  "header": {
+    "title": "Page Name",
+    "translate": "Translator",
+    "light_mode": "Day Mode",
+    "dark_mode": "Night Mode",
+    "profile": "Profile",
+    "settings": "Settings",
+    "log_out": "Logout"
+  },
+  "sidebar": {
+    "main": {
+      "title": "General",
+      "constant": "Constants",
+      "instalment": "Nazis",
+      "rental": "Renters",
+      "debt": "Debtors",
+      "import": "Input",
+      "export": "Output",
+      "returned_products": "Returned",
+      "import_export": "Import Export",
+      "last_one_year": "One Year Income Statement",
+      "home_table_dec": "No data available",
+      "home_top_20_product": "Top 20 Products"
+    },
+    "clients": {
+      "title": "Customers",
+      "statistics": "Statistics",
+      "create": "Create",
+      "orders": "Orders",
+      "all": "Customers"
+    },
+    "admins": {
+      "title": "Doctor",
+      "statistics": "Statistics",
+      "all": "All"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "create": "Create",
+      "all": "Notifications"
+    }
+  },
+  "admins": {
+    "create": {
+      "submit": "Create",
+      "inputs": {
+        "labels": {
+          "fname": "Admin Name",
+          "lname": "Admin last name",
+          "phone": "Admin phone number",
+          "passport_front": "Admin passport front image",
+          "passport_back": "Admin passport back image",
+          "status": "Select a status",
+          "username": "Create a username for login",
+          "password": "Password",
+
+          "company_name": "Company Name",
+          "location": "Company address",
+          "lat": "Latitude",
+          "long": "Longitude",
+          "logo": "Logo",
+
+          "start_time": "Tariff start time",
+          "end_time": "Tariff end time",
+          "tariff": "Tariff",
+
+          "paid": "Payment Amount",
+          "daily_pay": "Daily Pay",
+          "total_payment": "Total Payment"
+        },
+        "placeholders": {
+          "fname": "Olimjon",
+          "lname": "Follower",
+          "phone": "+998 33 444 07 28",
+          "last_phone": "+998 90 068 07 28",
+          "passport_front": "Passport front photo of responsible person",
+          "passport_back": "Passport back photo of responsible person",
+          "role": "Select a role",
+          "status": "Select a status",
+          "username": "wmed",
+          "password": "Create a perfect password",
+
+          "company_name": "wmed",
+          "location": "Uzbekistan, Tashkent, Yunusabad",
+          "logo": "Company Logo",
+
+          "start_time": "Start Time",
+          "end_time": "End time",
+          "tariff": "Tariff",
+
+          "paid": "Payment Amount",
+          "daily_pay": "Daily Pay",
+          "total_payment": "Total payment"
+        }
+      },
+      "upload": {
+        "logo": {
+          "title": "Upload Avatar for Admin",
+          "change": "Change",
+          "upload": "Upload image",
+          "dec_title": "Short Description",
+          "dec": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam, inventore quaerat corporis debitis quae repellendus eos quod. Ullam, sit."
+        },
+        "passport": {
+          "front": {
+            "title": "Front of Passport",
+            "change": "Passport front image",
+            "upload": "Upload front passport photo"
+          },
+          "back": {
+            "title": "Back of passport",
+            "change": "Passport photo",
+            "upload": "Upload passport photo"
+          }
+        }
+      }
+    }
+  },
+  "clients": {
+    "create": {
+      "title": "Create New Client",
+      "submit": "Create",
+      "accept": "Accepted *.jpeg, *.jpg, *.png",
+      "max_size": "Must not exceed 3 Mb!",
+      "dec_title": "Short Description",
+      "dec": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam, inventore quaerat corporis debitis quae repellendus eos quod. Ullam, sit.",
+
+      "company_title": "Company Information",
+      "user_title": "Responsible person information",
+      "tariff_title": "Tariff Information",
+      "inputs": {
+        "labels": {
+          "fname": "Name of responsible person",
+          "lname": "Responsible person's last name",
+          "phone": "Company main phone number",
+          "last_phone": "Company extension phone number",
+          "passport_front": "Passport front photo of responsible person",
+          "passport_back": "Passport back photo of responsible person",
+          "role": "Select a role",
+          "status": "Select a status",
+          "username": "Create a username for login",
+          "password": "Password",
+
+          "company_name": "Company Name",
+          "location": "Company address",
+          "lat": "Latitude",
+          "long": "Longitude",
+          "logo": "Logo",
+
+          "start_time": "Tariff start time",
+          "end_time": "Tariff end time",
+          "tariff": "Tariff",
+
+          "paid": "Payment Amount",
+          "daily_pay": "Daily Pay",
+          "total_payment": "Total payment"
+        },
+        "placeholders": {
+          "fname": "Ibrahim",
+          "lname": "Follower",
+          "phone": "+998 33 444 07 28",
+          "last_phone": "+998 90 068 07 28",
+          "passport_front": "Passport front photo of responsible person",
+          "passport_back": "Passport back photo of responsible person",
+          "role": "Select a role",
+          "status": "Select a status",
+          "username": "moonup",
+          "password": "Create a perfect password",
+
+          "company_name": "MoonUp",
+          "location": "Uzbekistan, Tashkent, Yunusabad",
+          "logo": "Company Logo",
+
+          "start_time": "Start Time",
+          "end_time": "End time",
+          "tariff": "Tariff",
+
+          "paid": "Payment Amount",
+          "daily_pay": "Daily Pay",
+          "total_payment": "Total payment"
+        }
+      },
+      "upload": {
+        "logo": {
+          "title": "Company logo",
+          "change": "Change",
+          "upload": "Upload Logo"
+        },
+        "passport": {
+          "front": {
+            "title": "Responsible person's passport front",
+            "change": "Change picture",
+            "upload": "Upload image"
+          },
+          "back": {
+            "title": "The back of the responsible person's passport",
+            "change": "Change Image",
+            "upload": "Upload image"
+          }
+        }
+      },
+      "ymap": {
+        "title": "Enter Company Location"
+      }
+    }
+  }
+}

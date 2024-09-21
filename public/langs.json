@@ -1,0 +1,22 @@
+[
+  {
+    "lang": "uz",
+    "title": "Uzbek",
+    "icon": "flag-icon-uz"
+  },
+  {
+    "lang": "kril",
+    "title": "Kril",
+    "icon": "flag-icon-ru"
+  },
+  {
+    "lang": "ru",
+    "title": "Russian",
+    "icon": "flag-icon-ru"
+  },
+  {
+    "lang": "gb",
+    "title": "English",
+    "icon": "flag-icon-gb"
+  }
+]

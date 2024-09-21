@@ -1,0 +1,282 @@
+{
+  "login": {
+    "username": {
+      "title": "Username yoki Email",
+      "placeholder": "Username yoki Emailingizni kiriting"
+    },
+    "password": {
+      "title": "Parol",
+      "placeholder": "Parolingizni kiriting"
+    },
+    "hello": "Salom, Xush kelibsiz",
+    "title": "Boshqaruv paneliga kirish",
+    "dec": "Yangi foydalanuvchimisiz?",
+    "register": "Hisob yaratish",
+    "submit": "Tasdiqlash",
+    "forgot": "Parol esdan chiqdimi?"
+  },
+  "errors": {
+    "404": "404: Siz qidirayotgan sahifa bu yerda mavjud emas",
+    "500": "500: Ichki server xatosi",
+    "dec": "Siz yo noaniq yo'lni sinab ko'rdingiz yoki bu erga noto'g'ri keldingiz. Qaysi biri bo'lishidan qat'iy nazar, navigatsiyadan foydalanib ko'ring.",
+    "back": "Asosiy saxifaga qaytish"
+  },
+  "header": {
+    "title": "Umumiy statistika",
+    "translate": "Tarjimon",
+    "light_mode": "Kun rejimi",
+    "dark_mode": "Tun rejimi",
+    "profile": "Profil",
+    "settings": "Sozlamalar",
+    "log_out": "Chiqish"
+  },
+  "sidebar": {
+    "main": {
+      "title": "Umumiy",
+      "constant": "Foydalanuvchilar",
+      "instalment": "Kutayotganlar",
+      "rental": "Qayta keluvchilar",
+      "debt": "Umumiy",
+      "import": "Kirim",
+      "export": "Chiqim",
+      "returned_products": "Qaytarilgan",
+      "import_export": "Statistika",
+      "last_one_year": "Bir yillik foydalanuvchilar hisoboti",
+      "home_table_dec": "Malumotlar mavjud emas",
+      "home_top_20_product": "Top 20 ta mahsulotlar"
+    },
+    "clients": {
+      "title": "Mijozlar",
+      "statistics": "Statistika",
+      "create": "Yaratish",
+      "orders": "Buyurtmalar",
+      "all": "Mijozlar"
+    },
+    "admins": {
+      "title": "Adminlar",
+      "statistics": "Statistika",
+      "create": "Yaratish",
+      "all": "Adminlar"
+    },
+    "investors": {
+      "title": "Investorlar",
+      "statistics": "Statistika",
+      "create": "Yaratish",
+      "orders": "Buyurtmalar",
+      "all": "Investorlar"
+    },
+    "notifications": {
+      "title": "Bildirishnomalar",
+      "create": "Yaratish",
+      "all": "Bildirishnomalar"
+    }
+  },
+  "admins": {
+    "create": {
+      "submit": "Yaratish",
+      "inputs": {
+        "labels": {
+          "fname": "Admin ismi",
+          "lname": "Admin familiyasi",
+          "phone": "Admin telefon raqami",
+          "passport_front": "Admin passport old rasmi",
+          "passport_back": "Admin passport ort rasmi",
+          "status": "Statusni tanlang",
+          "username": "Login uchun nom yarating",
+          "password": "Parol",
+
+          "company_name": "Kompanya nomi",
+          "location": "Kompanya manzil",
+          "lat": "Latitude",
+          "long": "Longitude",
+          "logo": "Logo",
+
+          "start_time": "Tarif boshlanish vaqti",
+          "end_time": "Tarif tugallanish vaqti",
+          "tariff": "Tarif",
+
+          "paid": "To'lov miqdori",
+          "daily_pay": "Kunlik to'lov",
+          "total_payment": "Umumiy to'lov"
+        },
+        "placeholders": {
+          "fname": "Olimjon",
+          "lname": "Nishanaliyev",
+          "phone": "+998 33 444 07 28",
+          "last_phone": "+998 90 068 07 28",
+          "passport_front": "Masul shaxs passport old rasmi",
+          "passport_back": "Masul shaxs passport ort rasmi",
+          "role": "Rolni tanlang",
+          "status": "Statusni tanlang",
+          "username": "wmed",
+          "password": "Mukammal parol yarating",
+
+          "company_name": "Wmed",
+          "location": "Uzbekistan, Tashkent, Yunusobod",
+          "logo": "Kompanya logosi",
+
+          "start_time": "Boshlanish vaqti",
+          "end_time": "Tugallanish vaqti",
+          "tariff": "Tarif",
+
+          "paid": "To'lov miqdori",
+          "daily_pay": "Kunlik to'lov",
+          "total_payment": "Umumiy to'lov"
+        }
+      },
+      "upload": {
+        "logo": {
+          "title": "Admin uchun avatar yuklang",
+          "change": "Almashtirish",
+          "upload": "Rasimni yuklang",
+          "dec_title": "Qisqacha tafsif",
+          "dec": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam, inventore quaerat corporis debitis quae repellendus eos quod. Ullam, sit."
+        },
+        "passport": {
+          "front": {
+            "title": "Passportining old qismi",
+            "change": "Passport old rasmi",
+            "upload": "Passport old rasmini yuklang"
+          },
+          "back": {
+            "title": "Passportining ort qismi",
+            "change": "Passport ort rasmi",
+            "upload": "Passport ort rasmini yuklang"
+          }
+        }
+      }
+    }
+  },
+  "clients": {
+    "create": {
+      "title": "Yangi mijoz yaratish",
+      "submit": "Yaratish",
+      "accept": "Ruxsat etilgan *.jpeg, *.jpg, *.png",
+      "max_size": "3 Mb dan oshmasligi lozim!",
+      "dec_title": "Qisqacha tafsif",
+      "dec": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam, inventore quaerat corporis debitis quae repellendus eos quod. Ullam, sit.",
+
+      "company_title": "Kompanya malumotlari",
+      "user_title": "Masul shaxs malumotlari",
+      "tariff_title": "Tarif malumotlari",
+      "inputs": {
+        "labels": {
+          "fname": "Masul shaxs ismi",
+          "lname": "Masul shaxs familiyasi",
+          "phone": "Kompanya asosiy telefon raqami",
+          "last_phone": "Kompanya qo'shimcha telefon raqami",
+          "passport_front": "Masul shaxs passport old rasmi",
+          "passport_back": "Masul shaxs passport ort rasmi",
+          "role": "Rolni tanlang",
+          "status": "Statusni tanlang",
+          "username": "Login uchun nom yarating",
+          "password": "Parol",
+
+          "company_name": "Kompanya nomi",
+          "location": "Kompanya manzil",
+          "lat": "Latitude",
+          "long": "Longitude",
+          "logo": "Logo",
+
+          "start_time": "Tarif boshlanish vaqti",
+          "end_time": "Tarif tugallanish vaqti",
+          "tariff": "Tarif",
+
+          "paid": "To'lov miqdori",
+          "daily_pay": "Kunlik to'lov",
+          "total_payment": "Umumiy to'lov"
+        },
+        "placeholders": {
+          "fname": "Olimjon",
+          "lname": "Nishanaliyev",
+          "phone": "+998 33 444 07 28",
+          "last_phone": "+998 90 068 07 28",
+          "passport_front": "Masul shaxs passport old rasmi",
+          "passport_back": "Masul shaxs passport ort rasmi",
+          "role": "Rolni tanlang",
+          "status": "Statusni tanlang",
+          "username": "wmed",
+          "password": "Mukammal parol yarating",
+
+          "company_name": "Wmed",
+          "location": "Uzbekistan, Tashkent, Yunusobod",
+          "logo": "Kompanya logosi",
+
+          "start_time": "Boshlanish vaqti",
+          "end_time": "Tugallanish vaqti",
+          "tariff": "Tarif",
+
+          "paid": "To'lov miqdori",
+          "daily_pay": "Kunlik to'lov",
+          "total_payment": "Umumiy to'lov"
+        }
+      },
+      "upload": {
+        "logo": {
+          "title": "Kompanya logotipini",
+          "change": "Almashtirish",
+          "upload": "Logo yuklang"
+        },
+        "passport": {
+          "front": {
+            "title": "Masul shaxs passporti old qismi",
+            "change": "Rasmini almashtirish",
+            "upload": "Rasmini yuklang"
+          },
+          "back": {
+            "title": "Masul shaxs passporti ort qismi",
+            "change": "Rasmini almashtirish",
+            "upload": "Rasmini yuklang"
+          }
+        }
+      },
+      "ymap": {
+        "title": "Kompanya joylashuvini kiriting"
+      }
+    }
+  },
+  "snackbar": {
+    "login_invalid": "Mijoz nomi noto'g'ri!",
+    "password_invalid": "Parol noto'g'ri!",
+
+    "token_invalid": "Token eskirgan!",
+    "token_not_found": "Token mavjud emas!",
+    "ac_token_expire": "Access token eskirgan!",
+    "re_token_expire": "Refresh token eskirgan!",
+
+    "api_not_found": "Bunday Api mavm=jud emas!",
+
+    "forbidden": "Siz uchun taqiqlangan!",
+    "user_not_found": "Bunday user mavjud emas!",
+    "user_already_exists": "User avvaldan mavjud!",
+    "user_paused": "Profilingiz vaqtinchalik to'xtatilgan!",
+    "user_blocked": "Profilingiz bloklangan!",
+
+    "role_not_found": "Bunday rol mavjud emas",
+
+    "validation_failed": "Malumotlarda kamchilik bor!",
+    "query_invalid": "Queryda kamchilik bor",
+
+    "client_already_exists": "Mijoz avvaldan mavjud!",
+
+    "catalog_already_exists": "Katalog avvaldan mavjud!",
+
+    "internal_server_error": "Server hatolik: 500",
+
+    "discount_not_found": "Bunday chegirma mavjud emas!",
+    "discount_already_exists": "Chegirma avvaldan mavjud!",
+
+    "unity_not_found": "Bunday o'lchov birligi mavjud emas!",
+    "unity_already_exists": "O'lchov birligi avvaldan mavjud!",
+
+    "pseriya_already_exists": "Bunday pasport seria raqami ishlatilgan!",
+    "jshshir_already_exists": "Bunday JSHSHIR raqami ishlatilgan!",
+
+    "partner_not_found": "Bunday hamkor mavjud emas!",
+    "partner_already_exists": "Hamkor avvaldan mavjud!",
+
+    "employer_not_found": "Bunday admin mavjud emas!",
+
+    "catalog_not_found": "Bunday katalog mavjud emas!"
+  }
+}
