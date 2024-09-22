@@ -1,5 +1,4 @@
 export * from "./ymap";
-export * from "./order";
 export * from "./table";
 export * from "./inputs";
 export * from "./styled";

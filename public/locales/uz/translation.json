@@ -37,38 +37,18 @@
       "instalment": "Kutayotganlar",
       "rental": "Qayta keluvchilar",
       "debt": "Umumiy",
-      "import": "Kirim",
-      "export": "Chiqim",
+      "import": "Yoshlar",
+      "export": "Qariyalar",
       "returned_products": "Qaytarilgan",
       "import_export": "Statistika",
       "last_one_year": "Bir yillik foydalanuvchilar hisoboti",
-      "home_table_dec": "Malumotlar mavjud emas",
-      "home_top_20_product": "Top 20 ta mahsulotlar"
-    },
-    "clients": {
-      "title": "Mijozlar",
-      "statistics": "Statistika",
-      "create": "Yaratish",
-      "orders": "Buyurtmalar",
-      "all": "Mijozlar"
+      "home_table_dec": "Malumotlar mavjud emas"
     },
     "admins": {
       "title": "Adminlar",
       "statistics": "Statistika",
       "create": "Yaratish",
       "all": "Adminlar"
-    },
-    "investors": {
-      "title": "Investorlar",
-      "statistics": "Statistika",
-      "create": "Yaratish",
-      "orders": "Buyurtmalar",
-      "all": "Investorlar"
-    },
-    "notifications": {
-      "title": "Bildirishnomalar",
-      "create": "Yaratish",
-      "all": "Bildirishnomalar"
     }
   },
   "admins": {

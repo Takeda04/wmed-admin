@@ -22,7 +22,7 @@
     "back": "Back to main page"
   },
   "header": {
-    "title": "Page Name",
+    "title": "Patients",
     "translate": "Translator",
     "light_mode": "Day Mode",
     "dark_mode": "Night Mode",
@@ -33,34 +33,21 @@
   "sidebar": {
     "main": {
       "title": "General",
-      "constant": "Constants",
-      "instalment": "Nazis",
-      "rental": "Renters",
-      "debt": "Debtors",
-      "import": "Input",
-      "export": "Output",
+      "constant": "Users",
+      "instalment": "Waiting",
+      "rental": "Returnees",
+      "debt": "All",
+      "import": "Young people",
+      "export": "The elderly",
       "returned_products": "Returned",
-      "import_export": "Import Export",
-      "last_one_year": "One Year Income Statement",
-      "home_table_dec": "No data available",
-      "home_top_20_product": "Top 20 Products"
-    },
-    "clients": {
-      "title": "Customers",
-      "statistics": "Statistics",
-      "create": "Create",
-      "orders": "Orders",
-      "all": "Customers"
+      "import_export": "Yearly users",
+      "last_one_year": "Number of customers per year",
+      "home_table_dec": "No data available"
     },
     "admins": {
       "title": "Doctor",
       "statistics": "Statistics",
       "all": "All"
-    },
-    "notifications": {
-      "title": "Notifications",
-      "create": "Create",
-      "all": "Notifications"
     }
   },
   "admins": {
@@ -179,28 +166,16 @@
           "total_payment": "Total payment"
         },
         "placeholders": {
-          "fname": "Ibrahim",
-          "lname": "Follower",
+          "fname": "Olimjon",
+          "lname": "Nishanaliyev",
           "phone": "+998 33 444 07 28",
           "last_phone": "+998 90 068 07 28",
           "passport_front": "Passport front photo of responsible person",
           "passport_back": "Passport back photo of responsible person",
           "role": "Select a role",
           "status": "Select a status",
-          "username": "moonup",
-          "password": "Create a perfect password",
-
-          "company_name": "MoonUp",
-          "location": "Uzbekistan, Tashkent, Yunusabad",
-          "logo": "Company Logo",
-
-          "start_time": "Start Time",
-          "end_time": "End time",
-          "tariff": "Tariff",
-
-          "paid": "Payment Amount",
-          "daily_pay": "Daily Pay",
-          "total_payment": "Total payment"
+          "username": "wmed",
+          "password": "Create a perfect password"
         }
       },
       "upload": {

@@ -7,8 +7,8 @@ import { Image } from "../../components";
 
 //todo Import images
 import Icon1 from "../../assets/images/clock.png";
-import Icon2 from "../../assets/images/icon7.png";
-import Icon3 from "../../assets/images/icon8.png";
+import Icon2 from "../../assets/images/return.png";
+import Icon3 from "../../assets/images/verified-user.png";
 import Icon4 from "../../assets/images/icon9.png";
 
 //todo Import mui
@@ -26,25 +26,25 @@ import { formatDate } from "../helpers";
 export const widgets = [
   {
     title: "sidebar.main.constant",
-    total: 234,
+    total: 35,
     color: "error",
     Icon: () => <Image alt="icon" src={Icon4} />,
   },
   {
     title: "sidebar.main.instalment",
-    total: 114000,
+    total: 23,
     color: "success",
     Icon: () => <Image alt="icon" src={Icon1} />,
   },
   {
     title: "sidebar.main.rental",
-    total: 1723315,
+    total: 5,
     color: "warning",
     Icon: () => <Image alt="icon" src={Icon2} />,
   },
   {
     title: "sidebar.main.debt",
-    total: 1352831,
+    total: 14,
     color: "warning",
     Icon: () => <Image alt="icon" src={Icon3} />,
   },
@@ -109,6 +109,19 @@ export const faceLoginData = {
 };
 
 //! ----------------------------------------------------------------------
+const getStatusColor = (status: string) => {
+  switch (status) {
+    case 'ACTIVE':
+      return 'success';  // Green color for active status
+    case 'WAITING':
+      return 'warning';  // Yellow color for waiting status
+    case 'FINISHED':
+      return 'default';  // Grey color for finished status
+    default:
+      return 'default';  // Default color for unknown statuses
+  }
+};
+
 
 export const AdminColumns: Array<GridColDef> = [
   {
@@ -118,13 +131,13 @@ export const AdminColumns: Array<GridColDef> = [
   },
   {
     field: "firstName",
-    headerName: "Ism",
+    headerName: "First Name",
     flex: 1,
     minWidth: 100,
   },
   {
     field: "lastName",
-    headerName: "Familiya",
+    headerName: "Last Name",
     flex: 1,
     minWidth: 100,
   },
@@ -147,25 +160,25 @@ export const AdminColumns: Array<GridColDef> = [
     headerName: "Status",
     flex: 1,
     minWidth: 100,
-    renderCell: ({ row }) => <Chip label={row?.status} color="success" />,
+    renderCell: ({ row }) => <Chip label={row?.status} color={getStatusColor(row.status)} />,
   },
   {
     field: "createdAt",
-    headerName: "Yaratilgan",
+    headerName: "Appointed",
     flex: 1,
     minWidth: 100,
     renderCell: ({ row }) => <>{formatDate(row?.createdAt)}</>,
   },
   {
-    field: "updated_at",
-    headerName: "Taxrirlangan",
+    field: "position",
+    headerName: "Number queue",
     flex: 1,
     minWidth: 100,
-    renderCell: ({ row }) => <>{formatDate(row?.updated_at)}</>,
+    renderCell: ({ row }) => <>{(row?.position)}</>,
   },
   {
     field: "actions",
-    headerName: "Xarakatlar",
+    headerName: "Actions",
     minWidth: 150,
     align: "center",
     headerAlign: "center",

@@ -43,9 +43,9 @@ export const Home = () => {
     };
   }, []);
 
-  const deletePatient = (patientId: number) => {
-    socket.emit("leaveQueue", { patientId });
-  };
+  // const deletePatient = (patientId: number) => {
+  //   socket.emit("leaveQueue", { patientId });
+  // };
 
   const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { value } = e.target;
@@ -55,6 +55,8 @@ export const Home = () => {
   const handlePaginationChange = (_: unknown, newPage: number) => {
     setState((prev) => ({ ...prev, page: newPage }));
   };
+
+  console.log(users, "Socket connected")
 
   return (
     <Main className="flex flex-col gap-5 w-full">

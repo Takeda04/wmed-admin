@@ -33,13 +33,6 @@ export const sidebar = [
         Icon: RxDotFilled,
         roles: [OWNER],
       },
-      // {
-      //   disabled: true,
-      //   path: "/doctor/create",
-      //   title: "sidebar.clients.create",
-      //   Icon: RxDotFilled,
-      //   roles: [OWNER],
-      // },
       {
         disabled: false,
         path: "/doctors",
